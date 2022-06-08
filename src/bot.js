@@ -1,6 +1,6 @@
 require("dotenv").config();
 const { Telegraf } = require("telegraf");
-const { default: Xhr } = require("xhr");
+// const { default: Xhr } = require("xhr");
 const Messages = require("./botMessages");
 const msg = new Messages();
 const bot = new Telegraf(process.env.TG_TOKEN);

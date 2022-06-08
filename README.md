@@ -1,4 +1,4 @@
-# Java Script Bot, Базирующийся на Animal Crossing Wiki
+# Java Script Bot
 
 > Установка
 

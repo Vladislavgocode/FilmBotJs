@@ -175,10 +175,11 @@ bot.action("random", (ctx) =>{
 bot.start((ctx) => ctx.reply(msg.start(ctx)));
 bot.help((ctx) => ctx.reply(msg.help()));
 
+const PORT = process.env.PORT || 3000;
 
 bot.launch({
     webhook: {
         domain: `https://breakingbadmoviebot.herokuapp.com/`,
-        port: 3000,
+        port: PORT,
     }
 });
